@@ -19,11 +19,11 @@
                 font-family: 'Wire One', 'sans-serif';
                 font-size: 1200%;
                 line-height: 1.42;
-                width: 100%;
+                width: 90%;
                 height: 300px;
                 border: 14pt solid #ccc7c4;
-                padding: 5px 0px 0 140px;
-                margin: 180px 0px 0px 0px;
+                padding: 5px 0px 0 100px;
+                margin: 180px 0px 0px 30px;
                 position: left;
                 z-index: 1;
                 display: inline-block;
@@ -920,6 +920,3 @@
             .sf-grid__row>div {
                 border: transparent;
             }
-
-
-            
