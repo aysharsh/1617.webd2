@@ -4,7 +4,7 @@
                 background-image: url(../assets/images/Webdesign.png);
                 background-repeat: no-repeat;
                 background-position: center top;
-                background-size: 50% auto;
+                background-size: 60% auto;
             }
             
             .bg2 {
@@ -86,8 +86,8 @@
                 font-family: 'Wire One', sans-serif;
                 font-size: 40pt;
                 color: #c86d5f;
-                padding: 2%;
-                margin: 5% 0 0 0;
+                padding: 5% 0% 0% 0%;
+                margin: 25% 0 0 0;
             }
             /*TYPOGRAFIE*/
             
@@ -409,7 +409,7 @@
                 width: 350px;
                 height: 350px;
                 /*display: block;*/
-                margin: 210px 0 0 50px;
+                margin: 230px 0 0 50px;
                 position: relative;
             }
             
@@ -811,7 +811,7 @@
                 overflow: hidden;
                 height: 500px;
                 width: 600px;
-                padding: 0% 0% 0% 15%;
+                padding: 20% 0% 0% 20%;
             }
             
             .gmap_canvas {
