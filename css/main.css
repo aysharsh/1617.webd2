@@ -4,7 +4,7 @@
                 background-image: url(../assets/images/webdesign.png);
                 background-repeat: no-repeat;
                 background-position: center top;
-                background-size: 60% auto;
+                background-size: 50% auto;
             }
             
             .bg2 {
@@ -553,7 +553,7 @@
                 font-size: 20px;
                 font-weight: 100;
                 font-family: "Advent+pro", sans-serif;
-                padding: 10%;
+                padding: 5%;
             }
             /* Social Media*/
             
