@@ -4,7 +4,7 @@
                 background-image: url(../assets/images/webdesign.png);
                 background-repeat: no-repeat;
                 background-position: center top;
-                background-size: 50% auto;
+                background-size: 55% auto;
             }
             
             .bg2 {
@@ -32,9 +32,9 @@
             .box2 {
                 line-height: 1.42;
                 width: 90%;
-                height: 600px;
+                height: 700px;
                 border: 14pt solid #ccc7c4;
-                margin: 0px 0px 0px 67px;
+                margin: 0px 0px 0px 74px;
                 position: left;
                 z-index: 1;
                 z-index: -1;
@@ -131,6 +131,12 @@
                 padding: auto;
             }
             
+            h4 {
+                color: #ccc7c4;
+                font-family: 'Wire One', 'sans-serif';
+                font-size: 80px;
+            }
+            
             h1.smlf {
                 font-size: 40pt;
                 font-weight: 20;
@@ -168,7 +174,7 @@
             h2 {
                 font-family: 'Advent pro', sans-serif;
                 color: #c86d5f;
-                padding: 0px 0px 0px 280px;
+                padding: 0px 0px 0px 290px;
             }
             
             h3 {
@@ -434,6 +440,7 @@
                 display: block;
                 height: 100%;
                 width: 100%;
+                position: absolute;
             }
             
             .slide-container1 {
@@ -550,10 +557,37 @@
                 opacity: 0.6;
                 text-align: justify;
                 color: white;
-                font-size: 20px;
+                font-size: 16px;
                 font-weight: 100;
                 font-family: "Advent+pro", sans-serif;
                 padding: 5%;
+                position: relative;
+                z-index: 200;
+            }
+            
+            .slideTextLeft {
+                font-family: 'Wire One';
+                font-size: 60px;
+                color: #c86d5f;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                text-align: center;
+                display: none;
+                -webkit-transition: all .4s ease;
+                transition: all .4s ease;
+                z-index: 200;
+            }
+            
+            .slide:hover .slideTextLeft {
+                display: block;
+            }
+            
+            .slide:hover img {
+                -webkit-filter: grayscale(100%) blur(3px);
+                filter: grayscale(100%) blur(3px);
             }
             /* Social Media*/
             
@@ -763,7 +797,7 @@
                 top: 2px;
                 box-shadow: 0 0;
             }
-            /*Verzenden*/
+            /*Verzenden button*/
             
             .btn {
                 position: relative;
